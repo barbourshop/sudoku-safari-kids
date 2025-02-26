@@ -23,10 +23,10 @@ const SudokuCell = ({
         "w-full h-full flex items-center justify-center text-2xl font-semibold transition-all duration-200",
         "border-r border-b border-slate-200 last:border-r-0",
         "focus:outline-none focus:ring-2 focus:ring-secondary",
-        isSelected && "bg-secondary/10",
+        isSelected && "bg-secondary/30",
         !isInitial && "animate-number-pop",
         value !== 0 && !isValid && "text-error",
-        isInitial ? "text-primary" : "text-slate-600"
+        isInitial ? "text-primary font-bold bg-slate-50" : "text-slate-600"
       )}
     >
       {value !== 0 ? value : ""}

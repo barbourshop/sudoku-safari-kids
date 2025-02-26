@@ -1,69 +1,37 @@
-# Welcome to your Lovable project
 
-## Project info
+# Sudoku Safari
 
-**URL**: https://lovable.dev/projects/fb120a85-06e9-4186-ba50-91f6e185350e
+A kid-friendly Sudoku game built with React and TypeScript. Perfect for children aged 10-14 to learn and enjoy Sudoku puzzles.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- Clean, playful interface with intuitive controls
+- Visual feedback for correct/incorrect moves
+- New game generation with a click of a button
+- Responsive design that works on tablets and desktops
+- Smooth animations for enhanced user experience
 
-**Use Lovable**
+## How to Play
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fb120a85-06e9-4186-ba50-91f6e185350e) and start prompting.
+1. Click on any empty cell in the 9x9 grid
+2. Use the number pad below to enter a number (1-9)
+3. Numbers in red indicate incorrect placements
+4. Complete the puzzle by filling all cells with correct numbers
+5. Click "New Game" to start a fresh puzzle anytime
 
-Changes made via Lovable will be committed automatically to this repo.
+## Rules of Sudoku
 
-**Use your preferred IDE**
+- Fill the 9×9 grid with numbers 1-9
+- Each row must contain all numbers from 1-9
+- Each column must contain all numbers from 1-9
+- Each 3×3 box must contain all numbers from 1-9
+- No number can repeat in any row, column, or 3×3 box
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Development
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+This project is built with:
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
 - React
-- shadcn-ui
+- TypeScript
 - Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/fb120a85-06e9-4186-ba50-91f6e185350e) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+- shadcn/ui components

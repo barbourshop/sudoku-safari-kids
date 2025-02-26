@@ -26,7 +26,9 @@ const SudokuCell = ({
         isSelected && "bg-secondary/30",
         !isInitial && "animate-number-pop",
         value !== 0 && !isValid && "text-error",
-        isInitial ? "text-primary font-bold bg-slate-50" : "text-slate-600"
+        isInitial 
+          ? "text-primary font-bold bg-slate-50" 
+          : "text-sky-600 font-semibold"
       )}
     >
       {value !== 0 ? value : ""}
